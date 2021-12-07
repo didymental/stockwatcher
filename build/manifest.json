@@ -1,0 +1,17 @@
+{
+  "name": "My Stocks Watchlist",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Keeps track of added stocks",
+  "icons": {
+    "512": "logo512.png"
+  },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "browser_action": {
+    "default_icon": "logo512.png",
+    "default_popup": "popup.html"
+  }
+}
